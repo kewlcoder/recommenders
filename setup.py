@@ -17,7 +17,7 @@
 import pathlib
 import setuptools
 
-VERSION = "0.5.2"
+VERSION = "0.6.0"
 
 long_description = (pathlib.Path(__file__).parent
                     .joinpath("README.md")
@@ -39,6 +39,7 @@ setuptools.setup(
             "fire",
             "annoy",
             "scann == 1.2.*",
+            "tensorflow-ranking"
         ],
     },
     # PyPI package information.
